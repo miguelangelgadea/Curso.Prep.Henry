@@ -41,7 +41,12 @@ function saludo(idioma) {
   if (idioma === "mandarin") return "Ni Hao!";       
   if (idioma === "ingles") return "Hello!";
   else return "Hola"
-  
+  //switch (idioma) {
+   // case (aleman) : return "Guten tag!";
+   //case (mandarin) : return "Ni Hao!";
+   //case (ingles) : return "hello!";
+   //default : return "Hola!";
+  //}
 }
 
 function colors(color) {
