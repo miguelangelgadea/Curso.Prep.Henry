@@ -40,7 +40,7 @@ function saludo(idioma) {
   if (idioma === "aleman") return "Guten Tag!";
   if (idioma === "mandarin") return "Ni Hao!";       
   if (idioma === "ingles") return "Hello!";
-  else return "Hola"
+  else return "Hola!"
   //switch (idioma) {
    // case (aleman) : return "Guten tag!";
    //case (mandarin) : return "Ni Hao!";
@@ -59,11 +59,9 @@ function colors(color) {
   //Usar el statement Switch.
   switch (color) {
     case (blue) : return "This is blue";
-    
     case (red) : return "This is red";
- 
-    case (ingles) : return "hello!";
-  
+    case (green) : return "This is green";
+    case (orange) : return "This is orange";
     default : return "Color not found";
   }
 }
